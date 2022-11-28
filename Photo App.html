@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="projects.css">
+        <meta charset="utf-8">
+        <script src="main.js"></script>
+        <title>Candy's Portfolio</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <li tabindex=0><a href="about.html">About</a></li>
+                <li tabindex=1><a aria-haspopup="page" aria-expanded="false" href="projects.html">Projects</a>
+                    <ul class="pulldown-menu">
+                        <a href="Photo App.html" aria-current="page"><li>Photo App</li></a>
+                        <a href="Maze Dash.html"><li>Maze Dash</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div id="banner">
+                <h1>Photo App</h1>
+                <div id="tags">
+                    <h3>Tags:</h3>
+                    <p>HTML/CSS</p>
+                    <p>JavaScript</p>
+                    <p>Flask</p>
+                    <p>React</p>
+                </div>
+            </div>
+            
+            <h2>Description:</h2>
+            <p>We wanted to make a website that replicated the features of Instagram. We began by making the structure of the website with HTML, CSS and JavaScript.</p>
+            <p>The website was later implemented with React to abstract logical groupings/components of code.</p>
+            <img src="images/projects/photoapp/webdev2.png" alt="Photo App interface">
+
+            <p>Then, we used Flask, a python web framework, in order to create REST APIs, generate server-side templates and interact with databases.</p>
+            <p>This allowed us to make the website interactive. For example, users could like/unlike photos, write comments and follow/unfollow different users.</p>
+            <img src="images/projects/photoapp/webdev1.png" alt="Photo App authentication page">
+
+            <p>We also utilized JSON web tokens to authenticate users and protect against cross-site request forgery attacks.</p>
+            <img src="images/projects/photoapp/webdev3.png" alt="Photo App comments section of posts">
+            
+            <h2>Details:</h2>
+            <p>Check out the full website <a href="https://candys-photo-app.herokuapp.com/">here</a></p>
+
+        </main>
+    </body>
+
+
+
+    
+</html>

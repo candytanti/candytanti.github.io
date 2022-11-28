@@ -1,0 +1,129 @@
+
+nav.top-nav{
+    background-color: #C9BBCF;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+nav [aria-current="page"]{
+    background-color: #bbb;
+    color: #000;
+    border-bottom: .25em solid #444;
+}
+
+main {
+    margin-top: 100px;
+}
+
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+
+nav.top-nav li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+
+nav.top-nav ul{
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu{
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+}
+
+nav.top-nav .pulldown-menu li{
+    display: block;
+}
+
+nav.top-nav li:hover .pulldown-menu{
+    display: block;
+}
+
+
+
+#banner {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(255, 227, 225);
+}
+
+#banner h1 {
+    font-size: 70px;
+}
+
+#banner h2 {
+    font-size: 35px;
+}
+
+#projects-div {
+    margin: 50px;
+}
+
+#projects-div h2 {
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+.project {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0003;
+  
+  }
+  
+  .project :hover{background-color: #ddd;}
+  .project :active{box-shadow: none;}
+  
+  .project  .title,
+  .project  .project-info
+  {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 0;
+  }
+  
+
+  .project  .title{
+    font-size: 18px;
+  }
+  
+  .project  .cover{
+    height: 200px;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 2px 2px 2px #0003;
+
+    width: 205px;
+    object-fit: contain;
+    background-color: #C9BBCF;
+  }
+  
+  .project  .project-info
+  {
+    color: #555;
+  }
+
+
+

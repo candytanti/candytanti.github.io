@@ -1,0 +1,93 @@
+
+nav.top-nav{
+    background-color: #C9BBCF;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+nav [aria-current="page"]{
+    background-color: #bbb;
+    color: #000;
+    border-bottom: .25em solid #444;
+}
+
+main {
+    margin-top: 100px;
+}
+
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+
+nav.top-nav li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+
+nav.top-nav ul{
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu{
+    display: none;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+}
+
+nav.top-nav .pulldown-menu li{
+    display: block;
+}
+
+nav.top-nav li:hover .pulldown-menu{
+    display: block;
+}
+
+#banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #C9BBCF;
+    width:fit-content;
+}
+
+#tags {
+    display: flex;
+    align-items: center;
+}
+
+#tags p {
+    margin: 0px 10px 0px 10px;
+    border: 1px solid rgb(255, 227, 225);
+    background-color: rgb(255, 227, 225);
+}
+
+p {
+    font-size: 20px;
+}
+
+
+main {
+    margin: 100px 50px 100px 50px;
+}
+
+img {
+    width: 1000px;
+    border: solid black 1px;
+}

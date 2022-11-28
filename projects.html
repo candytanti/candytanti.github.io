@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <script src="main.js"></script>
+        <title>Candy's Portfolio</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <li tabindex=0><a href="about.html">About</a></li>
+                <li tabindex=1><a aria-current="page" aria-haspopup="page" aria-expanded="false" href="projects.html">Projects</a>
+                    <ul class="pulldown-menu">
+                        <a href="Photo App.html"><li>Photo App</li></a>
+                        <a href="Maze Dash.html"><li>Maze Dash</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div id="banner">
+                <h3>My name is</h3> 
+                <h1>Candy Tantichirasakul</h1>
+                <h2>~ Welcome to my portfolio ~</h2>
+            </div>
+
+            <div id="projects-div">
+                <h2>Projects</h2>
+                <p>See my other accomplishments by requesting access to my resume: <a href="https://drive.google.com/file/d/1NZH36iqMKxEoZ91R9KPuQObnDHLp0wbp/view?usp=sharing">Resume</a></p>
+                <section class="bookshelf" id="featured-shelf"></section>
+            </div>
+
+
+
+        </main>
+    </body>
+
+    <script>
+        createProjectshelf(projects, "#featured-shelf");
+    </script>
+
+    
+</html>
