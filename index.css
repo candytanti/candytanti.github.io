@@ -1,3 +1,4 @@
+
 nav.top-nav{
     background-color: #C9BBCF;
     position: fixed;
@@ -14,7 +15,6 @@ nav [aria-current="page"]{
 
 main {
     margin-top: 100px;
-    margin-left: 2em;
 }
 
 nav.top-nav li:hover{
@@ -48,86 +48,82 @@ nav.top-nav li:hover .pulldown-menu{
     display: block;
 }
 
-#about-me {
-    display: flex;
+
+
+#banner {
+    text-align: center;
     margin: 50px;
-    /* border: 1px solid black; */
+    padding: 50px;
+    background-color: rgb(255, 227, 225);
 }
 
-#profile {
-    flex-direction: column;
-    /* border: 1px solid black; */
+#banner h1 {
+    font-size: 70px;
 }
 
-#bio {
-    /* border: 1px solid black; */
-    margin: 25px;
+#banner h2 {
+    font-size: 35px;
 }
 
-h1{
-    font-size: 50px;
+#projects-div {
+    margin: 50px;
+}
+
+#projects-div h2 {
+    font-size: 45px;
+    margin-bottom: 0px;
 }
 
 
-#profile {
-    display: flex;
-    width: 1000px;
-    align-items: center;
-}
 
-#profile img {
+
+
+
+
+.project {
+    display: inline-block;
+    vertical-align: top;
     width: 200px;
-}
+    height: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0003;
+  
+  }
+  
+  .project :hover{background-color: #ddd;}
+  .project :active{box-shadow: none;}
+  
+  .project  .title,
+  .project  .project-info
+  {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 0;
+  }
+  
 
-#bio {
-    margin-left: 50px;
-}
+  .project  .title{
+    font-size: 18px;
+  }
+  
+  .project  .cover{
+    height: 200px;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 2px 2px 2px #0003;
 
-#bio h2 {
-    margin-top: 80px;
-    font-size: 40px;
-}
+    width: 205px;
+    object-fit: contain;
+    background-color: #C9BBCF;
+  }
+  
+  .project  .project-info
+  {
+    color: #555;
+  }
 
-#personal-contact{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
-#contact-me {
-    margin: 50px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-#contact {
-    display: flex;
-    flex-direction: row;
-}
-
-#contact-me h1{
-    font-size: 40px;
-}
-
-#contact-me p{
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-#contact-me img{
-    width: 55px;
-    height: fit-content;
-}
-
-p {
-    font-size: 25px;
-}
-
-#available-times {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-}
