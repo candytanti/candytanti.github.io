@@ -21,7 +21,7 @@ function createProjectshelf(projects, shelfSelector){
       for (let project of projects){
 
         let container = document.createElement("div");
-        html = `<a href="${project.title}.html">
+        html = `<a href="${project.title}.html" aria-label="link to project named ${project.title}">
         <h1 class="title">${project.title}</h1>
         <img class="cover" src="${project.cover}" alt="Image of ${project.title}">
         <div class="project-info">
